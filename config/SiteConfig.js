@@ -6,7 +6,7 @@ module.exports = {
   siteUrl: "https://sofiamoreas.com/", // Domain of your site. No trailing slash!
   siteLanguage: "en", // Language Tag on <html> element
   siteLogo: "/logos/logo-1024.png", // Used for SEO and manifest
-  siteDescription: "Portfolio of Sofia Moraes, Visual Designer",
+  siteDescription: "Portfolio of Sofia Moraes, Freelance UI/UX Designer",
   // siteFBAppID: '123456789', // Facebook App ID
   // userTwitter: 'sofimoraesm', // Twitter Username
   // og: Meta Tags
