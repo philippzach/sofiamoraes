@@ -1,20 +1,24 @@
-import React from 'react';
-import Link from 'gatsby-link';
-import styles from './Navbar.module.scss';
+import React from "react"
+import Link from "gatsby-link"
+import styles from "./Navbar.module.scss"
 
 const Navbar = () => (
   <nav className={styles.navnotphone}>
     <Link to="/about" className="slide-left-right">
       About
     </Link>
-   {/*}<Link to="/blog" className="slide-left-right">
-      Blog
-    </Link>{*/}
+
     <div className={styles.hiremecontainer}>
       <Link to="/hireme">
         <div className={styles.text}>
-          <span className="slide-left-right">Hire Me</span>
-          <svg id={styles.star} x="0px" y="0px" viewBox="0 0 511.999 511.999" height="30px">
+          <span className="slide-left-right">Contact</span>
+          <svg
+            id={styles.star}
+            x="0px"
+            y="0px"
+            viewBox="0 0 511.999 511.999"
+            height="30px"
+          >
             <path
               className={styles.starright}
               d="M452.71,157.937l-133.741-12.404L265.843,22.17c-3.72-8.638-15.967-8.638-19.686,0l-53.126,123.362
@@ -76,6 +80,6 @@ const Navbar = () => (
       </Link>
     </div>
   </nav>
-);
+)
 
-export default Navbar;
+export default Navbar

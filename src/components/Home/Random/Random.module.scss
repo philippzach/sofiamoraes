@@ -1,4 +1,4 @@
-@import '../../../../config/variables';
+@import "../../../../config/variables";
 
 .master {
   display: block;
@@ -10,6 +10,9 @@
 
 .Typist {
   display: inline;
+}
+h2 {
+  line-height: 1.5em;
 }
 
 .maincontainer {

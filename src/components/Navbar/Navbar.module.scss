@@ -1,47 +1,47 @@
-@import '../../../config/variables';
+@import "../../../config/variables";
 
 nav.navnotphone {
-	float: right;
-	display: inline-flex;
-	margin-top: 6px;
+  float: right;
+  display: inline-flex;
+  margin-top: 6px;
 }
-nav > div > a, nav > a {
-	padding-right: 60px;
-	color: $black;
-	text-decoration: none;
+nav > div > a,
+nav > a {
+  padding-right: 60px;
+  color: $black;
+  text-decoration: none;
 }
 
 .text {
-    display: inline-flex;
+  display: inline-flex;
 }
 .text:hover path.line {
-	animation: spark 0.8s infinite alternate;
-	animation-timing-function: ease-in;
+  animation: spark 0.8s infinite alternate;
+  animation-timing-function: ease-in;
+}
+
+@keyframes spark {
+  to {
+    fill: black;
   }
-  
-  @keyframes spark {
-	to {
-	  fill: black;
-	}
-  }
+}
 svg#star {
-	height: 30px;
-	margin-left:10px;
-	fill:#FFC850;
-	//enable-background:new 0 0 511.999 511.999
-  }
+  height: 30px;
+  margin-left: 10px;
+  fill: #ffc850;
+  //enable-background:new 0 0 511.999 511.999
+}
 //.starleft {
 //		fill: #FFC850;
 //	}
 path.starright {
-		fill:#FFDC64;
-	}
-path.line {
-		fill: white;
-	}
-nav.navnotphone {
-		@include nav-desktop {
-		display: none;
-	}
+  fill: #ffdc64;
 }
-
+path.line {
+  fill: white;
+}
+nav.navnotphone {
+  @include nav-desktop {
+    display: none;
+  }
+}

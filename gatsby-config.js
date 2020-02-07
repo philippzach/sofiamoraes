@@ -11,7 +11,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
-    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-typography",
       options: {
