@@ -18,7 +18,7 @@ const Project2 = () => (
   <div>
     <ProjectTop
       heading="Hangry"
-      subHeading="Conecting Restaurants and Users in Zürich"
+      subHeading="Connecting Restaurants and Users in Zürich"
       pic={HeaderImage}
       altText=""
     />
@@ -32,7 +32,7 @@ const Project2 = () => (
         </h2>
         <p className={styles.text}>
           An app that allows you to (pre)order food and you can pick it up
-          without waiting or queing in a restaurant or a food truck.
+          without waiting or queuing in a restaurant or a food truck.
         </p>
       </div>
     </div>
@@ -85,9 +85,9 @@ const Project2 = () => (
         <div className={styles.flexleft}>
           <h2 className={styles.heading}>Building the identity</h2>
           <p className={styles.text}>
-            Was defined after stuying the target group and personas, which will
+            Was defined after studying the target group and personas, which will
             be: the cheerful city person, the young families and retirees
-            reciding in the area of Mosnang.
+            receding in the area of Zurich.
           </p>
         </div>
         <div className={styles.flexright}>
@@ -120,9 +120,9 @@ const Project2 = () => (
         <div className={styles.flexleft}>
           <h2 className={styles.heading}>Color Palette</h2>
           <p className={styles.text}>
-            Was defined after stuying the target group and personas, which will
+            Was defined after studying the target group and personas, which will
             be: the cheerful city person, the young families and retirees
-            reciding in the area of Mosnang.
+            receding in the area of Zurich.
           </p>
         </div>
         <div className={styles.flexright}>
