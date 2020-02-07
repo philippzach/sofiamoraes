@@ -26,8 +26,8 @@ const Aboutme = () => (
             <h2>About Me</h2>
             {/* }<Typist cursor= {{show: false,  }}>{ */}
             <p>
-              Hi! I am a freelance designer specializing in web applications,
-              user interface, UX and brand design.
+              Hi! I am a freelance designer for web applications, user
+              interface, UX and brand design.
             </p>
             <p>
               I’m originally from Venezuela but I have spent the last 9 years
@@ -37,8 +37,7 @@ const Aboutme = () => (
             <p>
               I love finding the right balance between beauty and usefulness.
               Creating aesthetic solutions that drive a more united world and
-              collaborating with incredible people around the world is what
-              drives me.
+              collaborating with incredible people around the world.
             </p>
             <p>
               In my spare time you will find me only in one place: the ocean

@@ -4,13 +4,14 @@ const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Sofia Moraes | Freelance Designer & Videographer`,
+    description: `Freelance Designer, Videographer and Product Photographer available for your unique project. Contact me!`,
+    author: `@philippzach`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+
     {
       resolve: "gatsby-plugin-typography",
       options: {
@@ -57,8 +58,15 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: 916372,
+        sv: 6,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
