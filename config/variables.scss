@@ -1,0 +1,120 @@
+// --------------
+// Mixins
+// --------------
+
+// Hover
+
+@mixin hover-focus {
+    &:focus,
+    &:hover {
+        @content
+    }
+}
+
+@mixin for-phone-only {
+    @media (max-width: 599px) { @content; }
+}
+
+@mixin for-tablet-portrait-up {
+    @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-portrait-only {
+    @media (min-width: 600px) and (max-width: 899px) { @content; }
+}
+@mixin for-tablet-landscape-down {
+    @media (max-width: 899px) { @content; }
+}
+@mixin smrandom {
+    @media (max-width: 1024px) { @content; }
+}
+@mixin random {
+    @media (min-width: 1024px) { @content; }
+}
+@mixin for-big-desktop-up {
+    @media (min-width: 1500px) { @content; }
+}
+@mixin for-mobile-landscape {
+    @media (max-width: 900px) and (orientation: landscape) { @content; }
+}
+
+// Custom Media Queries
+@mixin nav-tachyons {
+    @media (min-width: 480px) { @content; }
+}
+@mixin nav-desktop {
+    @media (max-width: 650px) { @content; }
+}
+@mixin nav-phone {
+    @media (min-width: 650px) { @content; }
+}
+@mixin small-phone {
+    @media (max-width: 320px)  { @content; }
+}
+@mixin medium-phone {
+    @media (min-width: 375px) { @content; }
+}
+@mixin flexbox-cards {
+    @media (min-width: 785px) { @content; }
+}
+@mixin small {
+    @media (min-width: 480px) { @content; }
+}
+@mixin medium {
+    @media (min-width: 720px) { @content; }
+}
+@mixin large {
+    @media (min-width: 1080px) { @content; }
+}
+@mixin phone-only {
+    @media (max-width: 499px) { @content; }
+}
+@mixin fix {
+    @media (min-width: 499px) and (max-width: 899px) { @content; }
+}
+
+// --------------
+// Configuration
+// --------------
+
+// Configure your colors here
+
+$yellow: #ffdf59;
+$lightgrey: #edecea;
+$darkgrey: #333;
+$black: #000;
+
+// Configure the max-width of your containers here
+// Try to keep it in sync with maxWidth of `gatsby-remark-images`
+
+$container: 100rem;
+$container-text: 55rem; // Longer texts should have a smaller max-width to improve readability
+
+// Responsive Typography
+// You can set your min and max font-size here
+// More information: https://www.rucksackcss.org/docs/#responsive-type
+
+html {
+    font-size: responsive 16px 20px;
+}
+
+// --------------------------------------------
+// You don't need to change anything below here
+// --------------------------------------------
+
+$background-color: #f3f3f3;
+$body-color: #222;
+$link-color: $darkgrey;
+//$link-decoration: none;
+//$link-color-hover: darken($brand-primary, 15%);
+//$link-decoration-hover: none;
+/*
+$table-bg: $background-color;
+$table-cell-padding: 1.5rem;
+
+$text-muted: $brand-secondary;
+$cursor-disabled: not-allowed;
+*/
+
+$transition: .5s;
+
+$distance: 2rem; // Horizontal spacing for nav/container

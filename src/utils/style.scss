@@ -1,0 +1,42 @@
+// Custom Styles for Emma
+// Using our variables
+
+@import '../../config/variables';
+
+
+h2 {
+	line-height: 2.25rem;
+}
+
+.bm-burger-button {
+	height: 35px;
+	position: fixed;
+	right: 2rem;
+	top: 2rem;
+	width: 36px;
+}
+
+
+.bm-cross-button {
+	height: 24px;
+	right: 2rem !important;
+	top: 2rem !important;
+	transform: scale(2.5);
+	width: 24px;
+}
+
+.bm-cross {
+	background: #fff;
+}
+
+.bm-menu {
+	background: $yellow !important;
+	font-size: 1.15em;
+	padding: 2.5em 1.5em 0;
+}
+.bm-item-list {
+	float: none;
+	text-align: center;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,41 @@
+@import '../../../../config/variables';
+
+.header {
+    text-align: center;
+    margin-top: 13rem;
+}
+
+.how::before {
+    background-color: $lightgrey;
+    content: "";
+    position: absolute;
+    left: 50%;
+    height: 160px;
+    width: 1px;
+    transform: translateY(-120%)
+}
+
+.doesit {
+    margin-bottom: 5rem;
+}
+
+.st0{fill-rule:evenodd;clip-rule:evenodd;}
+.st1{fill:none;}
+.st2{fill-rule:evenodd;clip-rule:evenodd;stroke:#231F20;stroke-width:4.6289;stroke-miterlimit:10;}
+
+.icon {
+    margin-bottom: -0.3em;
+    margin-right: 0.3rem;
+}
+.statement {
+    display: inline-block;
+}
+.textcontainer {
+    text-align: center;
+}
+.textcontainer2 {
+    text-align: center;
+}
+.link {
+    background: rgb(255, 223, 89);
+}

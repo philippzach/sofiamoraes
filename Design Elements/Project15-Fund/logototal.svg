@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="306px" height="308px" viewBox="0 0 306 308" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-11.8%" y="-12.0%" width="123.6%" height="124.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3848066 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0.760180497 29.4821733 50.754425 56.6061048 82.7423655 38.2529226 114.822913 56.6061048 164.129739 29.4821733 163.90339 0.491992329 115.715905 29.4821733 82.8054124 11.1923065 50.754425 29.4821733 0.760180497 0.471233159"></polygon>
+        <linearGradient x1="49.4715798%" y1="58.4887679%" x2="49.9963768%" y2="46.0565818%" id="linearGradient-4">
+            <stop stop-color="#A1A8B3" offset="0%"></stop>
+            <stop stop-color="#E2E7EB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="62.7388724%" y1="45.3681726%" x2="17.2065933%" y2="44.3030001%" id="linearGradient-5">
+            <stop stop-color="#343C4A" offset="0%"></stop>
+            <stop stop-color="#595E6A" offset="56.7598828%"></stop>
+            <stop stop-color="#72757F" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-6" points="0.853981255 140.000704 26.3312616 155.590572 26.5419034 100.488735 59.4725828 80.4783209 59.4725828 44.1899437 106.519375 15.572906 107.114983 14.8437502 81.5951592 0.4509389 32.4720406 29.7226654 32.4720406 65.4249255 0.853981255 84.7535526"></polygon>
+        <linearGradient x1="40.9052507%" y1="53.9573236%" x2="104.839737%" y2="53.9573236%" id="linearGradient-8">
+            <stop stop-color="#B1B3B9" offset="0%"></stop>
+            <stop stop-color="#D0D2D5" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-9" points="106.708372 139.978054 81.3494434 155.671348 81.3494434 100.299775 48.2687147 80.4040608 47.7878505 44.308884 0.854323107 16 25.7913316 0.427150839 75.0217745 29.6999116 75.0217745 65.4022751 106.708372 84.7292474"></polygon>
+    </defs>
+    <g id="Page-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SSUG-Flagship-Fund-I" transform="translate(-999.000000, -2046.000000)">
+            <g id="Group-15" transform="translate(999.000000, 2046.000000)">
+                <rect id="Rectangle" fill="#F6F6F6" x="0" y="0" width="306" height="308"></rect>
+                <g id="Group-39" transform="translate(31.000000, 30.000000)" stroke="#A5A7AB">
+                    <g id="Group-9">
+                        <g id="Group-7">
+                            <line x1="0.608108108" y1="1.51209677" x2="0.608108108" y2="245.012097" id="Line" opacity="0.594819568" stroke-linecap="square"></line>
+                            <line x1="61.6081081" y1="1.51209677" x2="61.6081081" y2="244.4766" id="Line" opacity="0.594819568" stroke-linecap="square"></line>
+                            <line x1="122.608108" y1="1.01209677" x2="123.608108" y2="244.512097" id="Line" opacity="0.594819568" stroke-linecap="square"></line>
+                            <line x1="183.608108" y1="0.512096774" x2="183.608108" y2="244.512097" id="Line" opacity="0.594819568" stroke-linecap="square"></line>
+                            <line x1="244.608108" y1="0.512096774" x2="244.608108" y2="245" id="Line" opacity="0.594819568" stroke-linecap="square"></line>
+                            <line x1="122.108108" y1="-120.987903" x2="122.108108" y2="122.903989" id="Line" opacity="0.594819568" stroke-linecap="square" transform="translate(122.608108, 1.012097) rotate(90.000000) translate(-122.608108, -1.012097) "></line>
+                            <line x1="122" y1="-59.4773208" x2="122" y2="184.914571" id="Line" opacity="0.594819568" stroke-linecap="square" transform="translate(122.500000, 63.022679) rotate(90.000000) translate(-122.500000, -63.022679) "></line>
+                            <line x1="124.096011" y1="0.954641658" x2="122.120205" y2="244.954642" id="Line" opacity="0.594819568" stroke-linecap="square" transform="translate(123.108108, 122.954642) rotate(90.000000) translate(-123.108108, -122.954642) "></line>
+                            <line x1="124.096011" y1="61.9440593" x2="122.120205" y2="305.944059" id="Line" opacity="0.594819568" stroke-linecap="square" transform="translate(123.108108, 183.944059) rotate(90.000000) translate(-123.108108, -183.944059) "></line>
+                            <line x1="122.108206" y1="122.987904" x2="124.055739" y2="366.484116" id="Line" opacity="0.594819568" stroke-linecap="square" transform="translate(123.108206, 244.987904) rotate(-89.536054) translate(-123.108206, -244.987904) "></line>
+                            <line x1="1.10410837" y1="1.01209677" x2="244.108108" y2="244.530242" id="Line-2" opacity="0.594819568" stroke-linecap="square"></line>
+                            <line x1="244.108108" y1="1.01209677" x2="1.10810811" y2="244.512097" id="Line-3" opacity="0.594819568" stroke-linecap="square"></line>
+                            <ellipse id="Oval" stroke-width="1.5" cx="123.108108" cy="123.012097" rx="122" ry="121.5"></ellipse>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group" filter="url(#filter-1)" transform="translate(39.000000, 41.000000)">
+                    <polygon id="Fill-1" fill="#F0F1F4" points="32.8837252 29 83.0739034 0 115.096756 17.4819401 147.983523 0 196.012298 29 147.983523 58 115.096756 39.7874097 83.0739034 57.9721362"></polygon>
+                    <g id="Group-4" transform="translate(32.123545, 27.000000)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <g id="Clip-3"></g>
+                        <polygon id="Fill-2" fill="url(#linearGradient-4)" mask="url(#mask-3)" points="0.760180497 29.4821733 50.754425 56.6061048 82.7423655 38.2529226 114.822913 56.6061048 164.129739 29.4821733 163.888753 2 115.715905 29.4821733 82.8054124 11.1923065 50.754425 29.4821733 0.760180497 2"></polygon>
+                    </g>
+                    <polygon id="Fill-6" fill="#F0F1F4" points="114.123545 77 83.224428 95.0601455 83.224428 130.5 114 113"></polygon>
+                    <polygon id="Fill-7" fill="#454A58" points="145.123545 95.06018 114.224386 77 114 113.025238 146.123545 130.5"></polygon>
+                    <g id="Group-10" transform="translate(120.123545, 69.000000)">
+                        <mask id="mask-7" fill="white">
+                            <use xlink:href="#path-6"></use>
+                        </mask>
+                        <use id="Clip-9" fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+                    </g>
+                    <polygon id="Fill-11" fill="#303645" points="194.53961 195.340061 194.53961 159.052883 227.123545 140.32176 227.123545 84 179.145469 113.041306 179.145469 149.122421 146.123545 169.041162 146.123545 224"></polygon>
+                    <g id="Group-14" transform="translate(0.123545, 69.000000)">
+                        <mask id="mask-10" fill="white">
+                            <use xlink:href="#path-9"></use>
+                        </mask>
+                        <use id="Clip-13" fill="url(#linearGradient-8)" xlink:href="#path-9"></use>
+                    </g>
+                    <polygon id="Fill-15" fill="#CBCED2" points="33.7068423 196.296147 33.7068423 159.737141 1.12354466 141.087221 0.977867771 85 49.1021289 113.919688 49.1021289 149.850782 82.1235447 169.686404 82.1235447 225"></polygon>
+                </g>
+                <polygon id="Fill-5" fill="#ADB2B8" points="122.224428 171.5 153.508328 190 185.123545 171.5 153 154"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

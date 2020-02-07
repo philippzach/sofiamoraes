@@ -1,0 +1,14 @@
+@import '../../../config/variables';
+
+.container {
+    max-width: 90rem;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+.background {
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255) 0%,rgb(255, 255, 255) 25%,rgb(237, 236, 234) 25%,rgb(237, 236, 234) 100%);
+}
+
+

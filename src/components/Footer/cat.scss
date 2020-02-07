@@ -1,0 +1,118 @@
+@import '../../../config/variables';
+
+//    SASS definitions
+  
+$btn-dimension: 80px;
+$primary-color: white;
+$secondary-color: black;
+@mixin debug {
+  outline: 1px solid red;
+}
+
+.buttonposition {
+    display: inline;
+    margin-right: 75px;
+    float: right;
+    @include nav-desktop {
+      position: absolute;
+      right: -10%;
+    }
+    @include nav-phone {
+      position: absolute;
+      right: 2%;
+    }
+    @include small-phone{
+      display: none;
+    }
+}
+
+//    BUTTON styles
+
+.clap {
+  position: relative;
+  outline: 1px solid transparent;
+  border-radius: 50%;
+  border: 2px solid black;
+  width: $btn-dimension;
+  height: $btn-dimension; 
+  background: white;
+  /*radial-gradient(circle farthest-corner at center center, #ffffff 0%, #ffdf59 250%);*/
+  box-shadow: 0px 0px 50px 12px white;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50%;
+    //border: 1px solid $primary-color;
+    width: $btn-dimension - 1px;
+    height: $btn-dimension - 1px;
+  }
+  &:hover {
+   cursor: pointer;
+   border: 1px solid $secondary-color;
+   transition: border-color 0.3s ease-in;
+    &:after {
+      animation: shockwave 1s ease-in infinite;
+    } 
+  }
+  svg {
+    width: 60px;
+    fill: black;
+    stroke: $secondary-color;
+    stroke-width: 2px;
+    .st0{opacity:0.2;fill:#F7941E;}
+	  .st1{stroke:#000000;stroke-width:0.1703;stroke-miterlimit:10;}
+	  .st2{fill:#231F20;}
+	  .st3{opacity:0.5;}
+	  .st4{fill-rule:evenodd;clip-rule:evenodd;fill:#FFF200;}
+	  .st5{opacity:0.05;fill:#EC008C;}
+	  .st6{fill:#231F20;stroke:#000000;stroke-width:8.0073;stroke-miterlimit:10;}
+	  .st7{fill:#231F20;stroke:#231F20;stroke-width:0.1705;stroke-miterlimit:10;}
+    &.checked {
+      fill: $secondary-color;
+      stroke: black;
+      stroke-width: 1px;
+    }
+  }
+  .clap--count {
+    position: absolute;
+    top: -$btn-dimension/1.6;
+    left: $btn-dimension/4;
+    font-size: 0.7rem;
+    color: #ffdf59;
+    background: $secondary-color;
+    border-radius: 0%;
+    height: $btn-dimension/2;
+    width: $btn-dimension/2;
+    line-height: $btn-dimension/2;
+  }
+
+
+
+  .clap--count-total {
+    position: absolute;
+    font-size: 0.8rem;
+    width: $btn-dimension;
+    text-align: center;
+    left: 0;
+    top: -$btn-dimension/2.2;
+    color: $primary-color; 
+  }
+}
+
+
+@keyframes shockwave {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 2px $secondary-color;
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+    box-shadow: 0 0 50px darken($secondary-color, 20%), inset 0 0 10px $secondary-color;
+  }
+}

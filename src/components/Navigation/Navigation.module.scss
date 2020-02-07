@@ -1,0 +1,29 @@
+@import '../../../config/variables';
+
+.header {
+	display: block;
+	position: relative;
+	padding: 30px 0;
+	z-index: 12;
+}
+
+.navphone {
+	@include nav-phone {
+		display: none;
+	}
+}
+.list {
+	list-style-type: none;
+	width: 200px;
+    margin: 0;
+}
+.item {
+		background-color: white;
+		border: 4px solid #f1f2f3;
+		border-radius: 30px;
+		box-shadow: black;
+		box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		padding: 10px;
+		margin-bottom: 54px;
+		font-weight: 200;
+}

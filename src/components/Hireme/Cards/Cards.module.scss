@@ -1,0 +1,8 @@
+@import '../../../../config/variables';
+
+.container {
+    @include flexbox-cards {
+        display: flex;
+        justify-content: space-around;
+    }
+}

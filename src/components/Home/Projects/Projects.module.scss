@@ -1,0 +1,76 @@
+@import '../../../../config/variables';
+
+.container {
+    margin-top: 15rem;
+    display: flex;
+
+}
+.line::before {
+    background-color: #edecea;
+    content: "";
+    position: absolute;
+    left: 50%;
+    height: 180px;
+    width: 1px;
+    -webkit-transform: translateY(-120%);
+    -ms-transform: translateY(-120%);
+    transform: translateY(-120%);
+}
+.overflow {
+    overflow: hidden;
+}
+.boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    // margin-left: -7px;
+    // margin-right: -7px;
+    @include medium {
+        margin: 0;
+    }
+}
+.layout {
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    vertical-align: baseline;
+    border: 0;
+    list-style: none;
+    padding-bottom: 30px;
+    width: 50%;
+    padding-top: 3rem;
+    @include nav-phone {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;            
+    }
+}
+.layoutleft {
+    @include nav-phone {
+        padding-top: 15rem;
+    }
+}
+.listitem {
+    margin-bottom: 5rem;
+}
+.listitem img {
+    position: relative;
+    padding: 0 20px;
+    margin-bottom: 1rem;
+    transition: all 300ms ease-in-out;
+}
+.listitem:hover img {
+    @media (min-width: 1000px) {
+    transform: scale(.98)
+    }
+}
+

@@ -1,0 +1,22 @@
+@import '../../../../config/variables';
+
+.header {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 3.5rem;
+    margin-bottom: 15rem;
+}
+
+.line::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    height: 200px;
+    width: 1px;
+    background-color: $lightgrey;
+}
+
+.spacing {
+    line-height: 2.5rem;
+}

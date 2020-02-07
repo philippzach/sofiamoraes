@@ -1,0 +1,24 @@
+@import '../../../../config/variables';
+
+.fix {
+    @include fix {
+        margin-top: 5rem;
+    }
+    @include small-phone {
+        margin-top: 15rem;
+    }
+    @include medium-phone {
+        margin-top: 4rem;
+    }
+}
+.container {
+    /*@media screen and (max-width: 900px) and (min-width: 500px) {
+        margin-top: 12rem;
+    }*/
+    @media screen and (max-height: 675px) {
+        margin-top: 10rem;
+    }
+   // margin-top: 0.5rem;
+    display: flex;
+
+}

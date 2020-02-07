@@ -1,0 +1,20 @@
+@import '../../../config/variables';
+
+img.profile {
+    box-shadow: 4px 4px 68px -16px rgba(0,0,0,0.75);
+    @include nav-phone{
+    max-height: 400px; 
+    text-align: center;
+    float: right;
+    margin-right: 50px;
+    }
+}
+.abouttext {
+    @include nav-tachyons {
+    margin-top: 50%;
+    border-left-style: solid;
+    border-left-width: 0.5px;
+    padding: 55px 0px 35px 25px;
+    border-color: $lightgrey;
+    }
+}

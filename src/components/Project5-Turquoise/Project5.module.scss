@@ -1,0 +1,24 @@
+.divleft {
+    display: block;
+    width: 48%;
+    float: left;
+    //height: 100%;
+    @media (max-width: 650px) {
+        width: 89%;
+        margin: 0 2% 10px 10%;
+    }
+    @media (min-width: 650px) {
+        margin: 13% 0% 5% 7%;
+    }
+}
+
+.divright {
+    display: block;
+    width: 48%;
+    float: right;
+    //height: 100%;
+    margin: 0 0 10px 2%;
+    @media (max-width: 650px) {
+        width: 98%
+    }
+}
