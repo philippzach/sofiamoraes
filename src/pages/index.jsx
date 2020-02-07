@@ -15,7 +15,7 @@ class Index extends React.Component {
             <title>{config.siteTitle}</title>
           </Helmet>
           <Home />
-          <div>{/* } <ProjectListing projectEdges={projectEdges} /> { */}</div>
+
           <Footer />
         </div>
       </Layout>
