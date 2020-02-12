@@ -11,7 +11,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
-
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "215724576278961",
+      },
+    },
     {
       resolve: "gatsby-plugin-typography",
       options: {
