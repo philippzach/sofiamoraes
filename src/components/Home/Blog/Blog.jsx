@@ -22,9 +22,9 @@ const Blog = () => (
             className={styles.blogpost}
           >
             <Post
-              title="Freedom of Being"
-              date="04. August 18"
-              link="https://medium.com/@sofimoraes.m/freedom-of-being-f428e8944728"
+              title="Multiply Conversion Rate through Design"
+              date="10. February 20"
+              link="https://medium.com/@sofimoraes.m/how-to-multiply-your-conversion-rate-and-maximize-revenue-of-your-digital-product-with-these-ad76482ba9f4"
             />
           </a>
           {/*    <a href="https://medium.com/@sofimoraes.m/physics-in-wonderland-4433e8d3da18" className={styles.blogpost}>

@@ -1,31 +1,31 @@
-import React from 'react';
-import ProjectTop from '../ProjectsComponents/ProjectTop';
-import Button from '../Buttons/ButtonOutgoing/ButtonOutgoing';
-import HeaderImage from '../../../Design Elements/Project8-Wohlgensinger/banner.jpg';
-import Random from '../ProjectsComponents/BrowseProjects';
-import styles from '../ProjectsComponents/Project.module.scss';
-import syle from './Project8.module.scss';
-import Phone from '../../../Design Elements/Project8-Wohlgensinger/phone.png';
-import Product1 from '../../../Design Elements/Project8-Wohlgensinger/pic.png';
-import Pic2 from '../../../Design Elements/Project8-Wohlgensinger/pic2.jpg';
-import Pic3 from '../../../Design Elements/Project8-Wohlgensinger/pic3.jpg';
-import ColorPalette from '../../../Design Elements/Project8-Wohlgensinger/color.png';
+import React from "react"
+import ProjectTop from "../ProjectsComponents/ProjectTop"
+import Button from "../Buttons/ButtonOutgoing/ButtonOutgoing"
+import HeaderImage from "../../../Design Elements/Project8-Wohlgensinger/banner.jpg"
+import Random from "../ProjectsComponents/BrowseProjects"
+import styles from "../ProjectsComponents/Project.module.scss"
+import syle from "./Project8.module.scss"
+import Phone from "../../../Design Elements/Project8-Wohlgensinger/phone.png"
+import Product1 from "../../../Design Elements/Project8-Wohlgensinger/pic.png"
+import Pic2 from "../../../Design Elements/Project8-Wohlgensinger/pic2.jpg"
+import Pic3 from "../../../Design Elements/Project8-Wohlgensinger/pic3.jpg"
+import ColorPalette from "../../../Design Elements/Project8-Wohlgensinger/color.png"
 
-import Next from '../ProjectsComponents/NextProject';
+import Next from "../ProjectsComponents/NextProject"
 
 const Project2 = () => (
   <div>
     <ProjectTop
-      heading='Wohlgensinger AG'
-      subHeading='Innovative ecological carpentry with experience in remodeling, new construction and furniture.'
+      heading="Wohlgensinger AG"
+      subHeading="Innovative ecological carpentry with experience in remodeling, new construction and furniture."
       pic={HeaderImage}
-      altText=''
+      altText=""
     />
     <div className={styles.container}>
       <div className={styles.floatleft}>
         <h2
           className={styles.heading}
-          style={{ marginBottom: '1em', marginTop: '1em' }}
+          style={{ marginBottom: "1em", marginTop: "1em" }}
         >
           Simplicity and Sustainability
         </h2>
@@ -36,23 +36,23 @@ const Project2 = () => (
         </p>
         <div
           className={styles.floatright}
-          style={{ textAlign: 'right', marginTop: '2em', marginBottom: '4em' }}
+          style={{ textAlign: "right", marginTop: "2em", marginBottom: "4em" }}
         >
-          <Button name='Visit Website' link='https://wohlgensinger.ch' />
+          <Button name="Visit Website" link="https://wohlgensinger.ch" />
         </div>
       </div>
 
-      <section className={styles.content} style={{ marginTop: '4em' }}>
+      <section className={styles.content} style={{ marginTop: "4em" }}>
         <div className={styles.divleft}>
-          <img src={Phone} alt='Wohlgensinger Sofia Moraes Design' />
+          <img src={Phone} alt="Wohlgensinger Sofia Moraes Design" />
         </div>
         <div
           className={styles.divright}
           style={{
-            textAlign: 'right',
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center'
+            textAlign: "right",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
           }}
         >
           <h2 className={styles.heading}>The Problem</h2>
@@ -60,20 +60,20 @@ const Project2 = () => (
             Create a beautiful, vibrant, minimal yet impactful new version of
             the website that transmits the vision of the company and at the same
             time to be used as online catalog and inspiration for client’s
-            future projects..
+            future projects.
           </p>
         </div>
       </section>
-      <div className='tc' style={{ marginTop: '4em', marginBottom: '4em' }}>
+      <div className="tc" style={{ marginTop: "4em", marginBottom: "4em" }}>
         <h2 className={styles.heading}>Their Values</h2>
         <h3 className={styles.h3text}>
           simplicity, sustainability, innovation and aesthetics
         </h3>
       </div>
-      <div className='w-100 pa2'>
-        <img src={Product1} style={{ width: '100%' }} />
+      <div className="w-100 pa2">
+        <img src={Product1} style={{ width: "100%" }} />
       </div>
-      <section className={styles.flexfifty} style={{ marginTop: '2em' }}>
+      <section className={styles.flexfifty} style={{ marginTop: "2em" }}>
         <div className={styles.flexleft}>
           <h2 className={styles.heading}>Color Palette</h2>
           <p className={styles.text}>
@@ -83,10 +83,10 @@ const Project2 = () => (
           </p>
         </div>
         <div className={styles.flexright}>
-          <img src={ColorPalette} style={{ width: '100%' }} />
+          <img src={ColorPalette} style={{ width: "100%" }} />
         </div>
       </section>
-      <div className='tc' style={{ marginTop: '4em', marginBottom: '4em' }}>
+      <div className="tc" style={{ marginTop: "4em", marginBottom: "4em" }}>
         <h3 className={styles.h3text}>
           Since the website was developed as a React PWA, I had a lot of freedom
           to make a beautiful website with several features, transitions,
@@ -97,10 +97,10 @@ const Project2 = () => (
       </div>
     </div>
     <div>
-      <img src={Pic2} style={{ width: '100%' }} />
+      <img src={Pic2} style={{ width: "100%" }} />
     </div>
     <div className={styles.container}>
-      <div className='tc' style={{ marginTop: '4em', marginBottom: '4em' }}>
+      <div className="tc" style={{ marginTop: "4em", marginBottom: "4em" }}>
         <h3 className={styles.h3text}>
           I was also in charge of choosing the photo/content for the website,
           photo and color correction as well as creating the wireframe, UI and
@@ -109,11 +109,11 @@ const Project2 = () => (
       </div>
     </div>
     <div>
-      <img src={Pic3} style={{ width: '100%' }} />
+      <img src={Pic3} style={{ width: "100%" }} />
     </div>
-    <Next link='/nomadyoga' />
+    <Next link="/nomadyoga" />
     <Random />
   </div>
-);
+)
 
-export default Project2;
+export default Project2
