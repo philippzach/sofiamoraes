@@ -30,7 +30,8 @@ const Project2 = () => (
         </h2>
         <p className={styles.text}>
           The startup develop the first body instrument an audio augmented
-          reality device that allow people….augmented sound reality!
+          reality device that allow people immerse in one of the most innovative
+          experience of our times: augmented sound reality!
         </p>
         <div
           className={styles.floatright}

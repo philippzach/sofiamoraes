@@ -3,7 +3,7 @@ module.exports = {
   siteTitle: "Sofia Moraes | Freelance Designer & Videographer", // Navigation and Site Title
   siteTitleAlt:
     "Freelance Designer, Videographer and Product Photographer available for your unique project. Contact me!", // Alternative Site title for SEO
-  siteUrl: "https://sofiamoreas.com/", // Domain of your site. No trailing slash!
+  siteUrl: "https://sofiamoraes.com/", // Domain of your site. No trailing slash!
   siteLanguage: "en", // Language Tag on <html> element
   siteLogo: "/logos/logo-1024.png", // Used for SEO and manifest
   siteDescription: "Portfolio of Sofia Moraes, Freelance UI/UX Designer",
