@@ -4,9 +4,9 @@ import Button from "../Buttons/ButtonOutgoing/ButtonOutgoing"
 import HeaderImage from "../../../Design Elements/Project15-Fund/banner.jpg"
 import Random from "../ProjectsComponents/BrowseProjects"
 import styles from "../ProjectsComponents/Project.module.scss"
-import Logo from "../../../Design Elements/Project15-Fund/logo.svg"
+import Logo from "../../../Design Elements/Project15-Fund/ssug_logo.svg"
 import Phone from "../../../Design Elements/Project14-Caroki/phone.png"
-import Logototal from "../../../Design Elements/Project15-Fund/logototal.svg"
+import Logototal from "../../../Design Elements/Project15-Fund/ssug_fund_logo.svg"
 import ColorPalette from "../../../Design Elements/Project15-Fund/color.png"
 import Pic1 from "../../../Design Elements/Project15-Fund/pic1.png"
 import Pic2 from "../../../Design Elements/Project15-Fund/pic2.png"
@@ -59,7 +59,7 @@ const Project2 = () => (
             <img
               className={styles.logo}
               src={Logo}
-              alt="Caroki Brand Identity Sofia Moraes"
+              alt="Swiss Startuo Fund Brand Identity Sofia Moraes"
             />
           </div>
           <div className={styles.right}>
